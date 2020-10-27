@@ -97,8 +97,6 @@ a {
     text-align: right;
 }
 
-
-
 .content {
     position: absolute;
     margin-top: -430px ;
@@ -128,10 +126,8 @@ a {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
-    
-
-    margin-top: 70px;
-    margin-left: 15px;
+    text-align: right;
+    margin-top: 80px;
     
 }
 
@@ -149,9 +145,7 @@ a {
     font-weight: 900;
     font-size: 18px;
     line-height: 21px;
-    /* display: flex; */
-    /* align-items: flex-end; */
-    /* text-align: center; */
+   
     letter-spacing: 1em;
 
     color:#E7F0F2;
@@ -179,11 +173,3 @@ ul {
     margin-left: 50%;
     bottom: 0%;
 }
-
-@media (min-width: 400px){
-    .content {
-        display: flex;
-        flex-wrap: wrap;
-        width: fit-content;
-    }
-};

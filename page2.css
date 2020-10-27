@@ -7,7 +7,18 @@
     bottom: 644px;
 }
 
-.content h3{
+.content input {
+    position: absolute;
+    left: 1060px;
+    top: 25px;
+    width: 15px;
+    height: 15px;
+
+    text-align: center;
+    background-color: tomato;
+}
+
+.content a{
     position: absolute;
     width: 87px;
     height: 15px;
@@ -19,6 +30,7 @@
     font-weight: 900;
     font-size: 12px;
     text-align: right;
+    text-decoration: none;
 
     color: #000000;
     border-right: 1px #E7F0F2 solid;
@@ -97,21 +109,19 @@ h4{
     color: rgba(0, 0, 0, 0.55);
 }
 
-#size {
+.dropDown {
     position: absolute;
-    width: 98px;
-    height: 37px;
     left: 625px;
-    top: 458px;
+    top: 490px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 140px;
     display: flex;
     align-items: center;
 
+    border: none transparent;
     color: rgba(0, 0, 0, 0.85);
 }
 
@@ -145,8 +155,6 @@ h4{
 
 .cart {
     position: absolute;
-    width: 147px;
-    height: 48px;
     left: 582px;
     top: 561px;
 
@@ -155,27 +163,22 @@ h4{
     box-sizing: border-box;
 }
 
-.cart p{
+.cart a{
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
    
+    text-decoration: none;
     align-items: center;
     text-align: center;
     margin-top: 16px;
     color: #FFFFFF;
 }
-    
 
-
-#vektor {
-    position: absolute;
-    width: 10px;
-    height: 6px;
-    left: 735px;
-    top: 490px;
+.cart button{
+    padding: 8px;
 }
 
 .foto {

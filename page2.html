@@ -15,25 +15,29 @@
 <body>
     <div class="container">
 
+
         <div class="foto">
-            <img id="foto" src="../small project 1/image/cogan.png" alt="">
+            <img id="foto" src="image/cogan.png" alt="">
         </div>
 
         <div class="blockblack1">
-            <img src="../small project 1/image/vectorKiri.png" alt="">
+            <img src="image/vectorKiri.png" alt="">
         </div>
 
         <div class="blockblack2">
-            <img src="../small project 1/image/vectorKanan.png" alt="">
+            <img src="image/vectorKanan.png" alt="">
         </div>
 
         <div class="cart">
-            <p>ADD TO CART</p>
+            <button class="btn minus-btn disabled" type="button">-</button>
+            <a href="#">ADD TO CART</a>
+            <button class="btn plus-btn" type="button">+</button>
         </div>
 
         <div class="content">
+            <input type="text" id="quantity" value="0">
             <i class="fa fa-shopping-cart"></i>
-            <h3>GO BACK</h3>
+            <a href="#" onclick="goBack()">GO BACK</a>
             <h1>Color <br><b>Item Type / Name</b></h1>
         </div>
 
@@ -44,11 +48,17 @@
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book.</p>
             <h4>Size: </h4>
-            <h3 id="size"> Medium</h3>
-            <img id="vektor" src="../small project 1/image/Vector.png" alt="">
             <p id="bahan">Mens 100% Cotton</p>
         </div>
 
+        <div class="dropDown">
+            <select name="type" onmousedown="this.value='';" onchange="dropFunction(this.value);">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Extra Large">Extra Large</option>
+            </select>
+        </div>
 
         <div class="footbar">
             <ul>
@@ -64,6 +74,7 @@
             </ul>
         </div>
     </div>
+
 
     <script src="page2.js"></script>
 </body>
